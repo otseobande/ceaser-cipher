@@ -1,0 +1,22 @@
+{
+  "name": "ceaser-cipher",
+  "version": "1.0.0",
+  "description": ", it is a type of encryption technique in which each letter in",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otseobande/ceaser-cipher.git"
+  },
+  "author": "Otse Obande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otseobande/ceaser-cipher/issues"
+  },
+  "homepage": "https://github.com/otseobande/ceaser-cipher#readme"
+}
