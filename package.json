@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/otseobande/ceaser-cipher/issues"
   },
-  "homepage": "https://github.com/otseobande/ceaser-cipher#readme"
+  "homepage": "https://github.com/otseobande/ceaser-cipher#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
