@@ -12,7 +12,7 @@ const encrypt = (shift, text) => {
 
   const encryptedText = text.toUpperCase()
     .split('')
-    .map((letter, index) => {
+    .map((_, index) => {
       const charCode = text.charCodeAt(index);
 
       const shiftSequence = charCode - shift - 65;
