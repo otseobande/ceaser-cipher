@@ -9,12 +9,13 @@ describe('Ceaser cipher', () => {
       (() => encrypt('5', 'andela')).should.throw(TypeError);
     });
 
-    it('should throw an error if text contains special character', () => {
-      (() => encrypt(5, 'sdf,sdf')).should.throw();
-    })
     it('should throw an error if second argument is not a string', () => {
       (() => encrypt(5, 43)).should.throw(TypeError);
     });
+
+    it('should throw an error if text contains non-alphabet', () => {
+      (() => encrypt(5, 'sdf,sdf')).should.throw();
+    })
 
     it('should encrypt a text properly', () => {
       encrypt(5, 'ANDELA').should.be.equal('VIYZGV');
