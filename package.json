@@ -1,7 +1,7 @@
 {
   "name": "ceaser-cipher",
   "version": "1.0.0",
-  "description": ", it is a type of encryption technique in which each letter in",
+  "description": "This is an encryption technique in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet",
   "main": "index.js",
   "directories": {
     "test": "tests"
